@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// src/App.tsx
+import React from "react";
+import Graph from "./Graph";
+import "./App.css";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Network Graph</h1>
+      <p>Click to add a new node, drag arrow to add edges between nodes</p>
+      <p>Backspace/Del to remove node/edges</p>
+      <Graph />
     </div>
   );
-}
+};
 
 export default App;

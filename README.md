@@ -44,3 +44,22 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Network Graph Visualization
+
+This application provides a dynamic graph visualization using D3.js, allowing users to create and edit nodes and edges in a force-directed graph.
+
+## Features
+
+- Add and remove nodes dynamically.
+- Connect nodes with edges.
+- Place nodes freely.
+- Display node information.
+- Ability to select the nodes for deletion using Backspace or Delete Key.
+
+## Design Choices
+
+- **Component Structure**: The application is built using class components in React TypeScript.
+- **D3.js Integration**: D3.js is integrated within the React component.
+- **Dynamic Graph Layout**: The graph uses a force-directed layout to display the nodes.
+- **Drag-and-Drop Functionality**: Implemented using D3’s drag behavior, allowing users to connect the nodes to edges easily.
