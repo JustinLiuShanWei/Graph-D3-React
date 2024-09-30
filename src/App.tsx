@@ -8,7 +8,8 @@ const App: React.FC = () => {
     <div className="App">
       <h1>Network Graph</h1>
       <p>Click to add a new node, drag arrow to add edges between nodes</p>
-      <p>Backspace/Del to remove node/edges</p>
+      <p>Select node/edges by left or right clicking</p>
+      <p>Backspace or Del Key to remove nodes/edges</p>
       <Graph />
     </div>
   );
